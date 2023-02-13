@@ -28,7 +28,7 @@ java -jar build/libs/server-0.0.1-SNAPSHOT.jar
 
 Couple curls for your needs:
 ```sh
-curl -v -X POST -k -H "Content-Type: application/json" -d '{"username":"namehere","password":"passwordhere"}' https://localhost:8443/authenticate
+curl -v -X POST -k -H "Content-Type: application/json" -d '{"username":"namehere","password":"passwordhere"}' https://localhost:8443/auth/login
 curl -v -X GET -k -H "Authorization: Bearer tokenhere" https://localhost:8443/hello
 ```
 
