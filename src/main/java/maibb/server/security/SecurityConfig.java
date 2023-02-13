@@ -70,7 +70,7 @@ public class SecurityConfig {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration corsConfig = new CorsConfiguration().applyPermitDefaultValues();
         corsConfig.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "PATCH", "DELETE"));
-        corsConfig.setAllowedOriginPatterns(Arrays.asList("https://localhost:[*]"));
+        corsConfig.setAllowedOriginPatterns(Arrays.asList("*"));
         corsConfig.setAllowCredentials(true);
         source.registerCorsConfiguration("/**", corsConfig);
         return source;
