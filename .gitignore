@@ -38,3 +38,4 @@ out/
 cert.pem
 key.pem
 
+.env
