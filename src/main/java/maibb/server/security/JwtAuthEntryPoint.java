@@ -13,11 +13,11 @@ import jakarta.servlet.http.HttpServletResponse;
 @Component
 public class JwtAuthEntryPoint implements AuthenticationEntryPoint {
 
-    @Override
-    public void commence(HttpServletRequest request, HttpServletResponse response,
-            AuthenticationException authException) throws IOException, ServletException {
-        // just send 401 Unauthorized to everything ¯\_(ツ)_/¯
-        response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Unauthorized");
-    }
+	@Override
+	public void commence(HttpServletRequest request, HttpServletResponse response,
+			AuthenticationException authException) throws IOException, ServletException {
+		// just send 401 Unauthorized to everything ¯\_(ツ)_/¯
+		response.sendError(HttpServletResponse.SC_UNAUTHORIZED, "Unauthorized");
+	}
 
 }
