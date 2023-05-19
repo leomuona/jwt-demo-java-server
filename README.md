@@ -1,6 +1,6 @@
 # MaiBB server
 
-REST API server for MaiBB
+REST API server for MaiBB - JWT Auth demo software
 
 ## Development setup
 
