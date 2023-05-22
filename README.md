@@ -1,6 +1,6 @@
 # JWT Demo Java server
 
-REST API server for MaiBB - JWT Auth demo software
+REST API server for JWT Auth demo software
 
 ## Development setup
 
